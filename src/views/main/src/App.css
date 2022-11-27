@@ -1,0 +1,10 @@
+.v-editor,
+.v-editor .v-editor-body {
+    height  : 100%;
+    width   : 100%;
+    overflow: hidden;
+}
+
+.v-editor .v-editor-plugin {
+    position: relative;
+}
