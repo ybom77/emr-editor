@@ -14,7 +14,9 @@ const Text: Component<Text> = (props) => {
     })
 
     return (
-        <span class="v-text" {...props}>{store.value}</span>
+        <>
+            <span class="v-text" {...props}>{store.value}</span>
+        </>
     )
 }
 
