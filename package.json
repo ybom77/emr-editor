@@ -16,6 +16,10 @@
     "vite-plugin-solid": "^2.4.0"
   },
   "dependencies": {
+    "@emrditor/text": "link:packages\\text",
+    "@emreditor/cursor": "link:packages\\cursor",
+    "@emreditor/main": "link:packages\\main",
+    "cursor": "link:packages\\cursor",
     "nanoid": "^4.0.0",
     "solid-js": "^1.6.2"
   }
